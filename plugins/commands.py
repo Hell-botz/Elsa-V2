@@ -24,14 +24,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔅 ʜᴇʟᴩ 🔅', callback_data='help'),
+                    InlineKeyboardButton('🔎 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data="owner_info")
+                    InlineKeyboardButton('❄️ ᴀʙᴏᴜᴛ ❄️', callback_data='about'),
+                    InlineKeyboardButton('🥀 ʙᴏᴛ ᴏᴡɴᴇʀ 🥀', callback_data="owner_info")
                 ],[
-                    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🔰 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🔰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -48,14 +47,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔅 ʜᴇʟᴘ 🔅', callback_data='help'),
+                    InlineKeyboardButton('🔎 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data="owner_info")
+                    InlineKeyboardButton('❄️ ᴀʙᴏᴜᴛ ❄️', callback_data='about'),
+                    InlineKeyboardButton('🥀 ʙᴏᴛ ᴏᴡɴᴇʀ 🥀', callback_data="owner_info")
                 ],[
-                    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🔰 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🔰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -97,14 +95,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔅 ʜᴇʟᴘ 🔅', callback_data='help'),
+                    InlineKeyboardButton('🔎 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data="owner_info")
+                    InlineKeyboardButton('❄️ ᴀʙᴏᴜᴛ ❄️', callback_data='about'),
+                    InlineKeyboardButton('🥀 ʙᴏᴛ ᴏᴡɴᴇʀ 🥀', callback_data="owner_info")
                 ],[
-                    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🔰 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🔰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
