@@ -152,10 +152,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="t.me/hell_botz")
+                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -171,10 +169,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -242,10 +238,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ]
                         ]
                 )
@@ -285,10 +279,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ]
                         ]
         )
