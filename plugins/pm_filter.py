@@ -240,7 +240,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("🎬 {search} 🎬", url=f"https://www.google.com/search?q={query}")
+        InlineKeyboardButton("🔘 𝖦𝖾𝗍 𝗈𝗎𝗋 𝖺𝗅𝗅 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗅𝗂𝗇𝗄𝗌 🔘", url=f"https://t.me/CineParadise_Links/81")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1356,7 +1356,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("🎬 {search} 🎬", url=f"https://www.google.com/search?q={query}")
+        InlineKeyboardButton("🔘 𝖦𝖾𝗍 𝗈𝗎𝗋 𝖺𝗅𝗅 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗅𝗂𝗇𝗄𝗌 🔘", url=f"https://t.me/CineParadise_Links/81")
     ])
 
     if offset != "":
@@ -1386,7 +1386,7 @@ async def auto_filter(client, msg, spoll=False):
                 )
     else:
         btn.append(
-            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+            [InlineKeyboardButton(text="❌ 𝖭𝗈 𝖬𝗈𝗋𝖾 𝖯𝖺𝗀𝖾𝗌 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 ! ❌",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
