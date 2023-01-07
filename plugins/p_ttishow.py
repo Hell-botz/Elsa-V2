@@ -60,11 +60,9 @@ async def save_group(bot, message):
                                                  video=(MELCOW_VID),
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
-                                           [[
-                                             InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')]
-                                           [ InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK)
-                                           ]]
-                                                 ),
+                                                 [[InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
+                                                   ],[InlineKeyboardButton('🔉 Updates', url=f't.me/CineParadise_links')]]
+                                                     ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
