@@ -23,7 +23,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=f'https://t.me/hell_Botz')
+                InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK)
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -38,8 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                    InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  ],[
+                    InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -59,9 +61,9 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('+ Add me to your group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True'),
+                                                                           InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True'),
                                                                          ].[
-                                                                           InlineKeyboardButton('ᴏᴛᴛ ᴜᴩᴅᴀᴛᴇꜱ', url=CHNL_LNK)
+                                                                           InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK)
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -86,7 +88,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=f'https://t.me/hell_botz')
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -125,7 +127,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=f'https://t.me/hell_Botz')
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
