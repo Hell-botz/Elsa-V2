@@ -1347,7 +1347,7 @@ async def auto_filter(client, msg, spoll=False):
                 [
                     InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
                     InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo'),
-                    InlineKeyboardButton('🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links'')
+                    InlineKeyboardButton('🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links')
                 ]
             )
 
