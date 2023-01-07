@@ -106,10 +106,10 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-            InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
-        ],[
             InlineKeyboardButton('♻️ Share', url=f'https://t.me/share/url?url=https://t.me/Autofilter_Rbot'),
             InlineKeyboardButton('🔈 Updates', url=GRP_LNK)
+        ],[
+            InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
         ],[
             InlineKeyboardButton('🔎 Search again', switch_inline_query_current_chat=query)
         ]
