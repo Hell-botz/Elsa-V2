@@ -153,7 +153,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴏᴛᴛ ᴍᴏᴠɪᴇꜱ', url=CHNL_LNK)
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ],[
                           InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')   
                          ]
@@ -172,7 +172,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴏᴛᴛ ᴍᴏᴠɪᴇꜱ', url=CHNL_LNK)
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ],[
                           InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                          ]
@@ -243,7 +243,7 @@ async def start(client, message):
                     [
                          [
                           InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴏᴛᴛ ᴍᴏᴠɪᴇꜱ', url=CHNL_LNK)
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ],[
                           InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                          ]
@@ -286,7 +286,7 @@ async def start(client, message):
             [
                          [
                           InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴏᴛᴛ ᴍᴏᴠɪᴇꜱ', url=CHNL_LNK)
+                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                          ],[
                           InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                          ]
