@@ -535,8 +535,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('ɢʀᴏᴜᴩ', url=GRP_LNK),
+                              InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
                               InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                             ],[
+                              InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                              ]
                             ]
                         )
@@ -581,8 +583,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
+                  InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
                   InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                 ],[
+                  InlineKeyboardButton('+ Add Me To Your Group +', url=f'http://t.me/Autofilter_Rbot?startgroup=True')
                  ]
                 ]
             )
@@ -971,7 +975,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra')
         ], [
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🔮 ꜱᴛᴀᴛᴜs', callback_data='stats')
         ]]
         
@@ -988,7 +992,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url=GRP_LNK),
             InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url=f'https://t.me/source_Codez/3')
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
