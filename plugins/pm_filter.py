@@ -117,16 +117,16 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo'),
+                    InlineKeyboardButton(f'🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo')
                 ]
             )
                 
@@ -138,16 +138,16 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo'),
+                    InlineKeyboardButton(f'🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo')
                 ]
             )
     try:
@@ -240,7 +240,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("🔘 𝖦𝖾𝗍 𝗈𝗎𝗋 𝖺𝗅𝗅 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗅𝗂𝗇𝗄𝗌 🔘", url=f"https://t.me/CineParadise_Links/81")
+        InlineKeyboardButton(f'🎬 {search} 🎬', 'sinfo')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1325,16 +1325,16 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo'),
+                    InlineKeyboardButton(f'🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo')
                 ]
             )
                 
@@ -1346,21 +1346,21 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo'),
+                    InlineKeyboardButton(f'🎁 ɢɪꜰᴛ', url=f't.me/cineparadise_Links'')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🎯 ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'♨️ ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'🎯 ᴛɪᴩꜱ', 'minfo')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("🔘 𝖦𝖾𝗍 𝗈𝗎𝗋 𝖺𝗅𝗅 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗅𝗂𝗇𝗄𝗌 🔘", url=f"https://t.me/CineParadise_Links/81")
+        InlineKeyboardButton(f'🎬 {search} 🎬', 'sinfo')
     ])
 
     if offset != "":
