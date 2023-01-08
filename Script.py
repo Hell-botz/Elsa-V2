@@ -8,13 +8,13 @@ Click 𝗈𝗇 𝗍𝗁𝖾 𝖧𝖾𝗅𝗉 𝖻𝗎𝗍𝗍𝗈𝗇 𝖿𝗈�
     HELP_TXT = """Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs."""
 
-    ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/hell_botz'>˹ʜᴇʟʟ ʙᴏᴛᴢ˼</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>ᴩʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>ᴩyᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/source_Codez/3/'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ ꜱᴛᴀʙʟᴇ ]"""
+    ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/hell_botz'>˹ʜᴇʟʟ ʙᴏᴛᴢ˼</a>
+○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href='https://docs.pyrogram.org/'>ᴩʏʀᴏɢʀᴀᴍ</a>
+○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href='https://www.python.org/download/releases/3.0/'>ᴩyᴛʜᴏɴ 3</a>
+○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏDB</a>
+○ 𝖲𝖾𝗋𝗏𝖾𝗋 : <a href='https://t.me/source_Codez/3/'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v2.7.1 [ ꜱᴛᴀʙʟᴇ ]"""
 
     SOURCE_TXT = """ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
