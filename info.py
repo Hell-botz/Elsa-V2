@@ -23,7 +23,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/759244314061246111744.jpg https://te.legra.ph/file/c80609c758f9f1d5fe985.jpg https://te.legra.ph/file/d325fe706e3c730f9e944.jpg https://te.legra.ph/file/d144a9af0fa717fa3d90c.jpg https://graph.org/file/eafbe95c9933232a694e9.jpg https://graph.org/file/cb7890c4bb56a1f69e68a.jpg https://graph.org/file/ef2d76f4ea24dfbffef4c.jpg https://graph.org/file/976877f6e95fdc5c1e1bb.jpg https://graph.org/file/422a75ab5d429d7d544d3.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e25ec4ab93d3f126c17dc.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/759244314061246111744.jpg https://te.legra.ph/file/c80609c758f9f1d5fe985.jpg https://te.legra.ph/file/d325fe706e3c730f9e944.jpg https://te.legra.ph/file/d144a9af0fa717fa3d90c.jpg https://graph.org/file/eafbe95c9933232a694e9.jpg https://graph.org/file/cb7890c4bb56a1f69e68a.jpg https://graph.org/file/ef2d76f4ea24dfbffef4c.jpg https://graph.org/file/976877f6e95fdc5c1e1bb.jpg https://graph.org/file/422a75ab5d429d7d544d3.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/f7b0a285072c15be5a281.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/fb801d4e77848582367ec.jpg")
 
 # Admins, Channels & Users
