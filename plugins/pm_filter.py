@@ -61,7 +61,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("𝖯𝖬 𝖿𝗂𝗅𝗍𝖾𝗋 𝗂𝗌 𝗇𝗈𝗍 𝖺𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾... 𝖨𝖿 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍 𝗆𝗈𝗏𝗂𝖾 𝗈𝗋 𝗌𝖾𝗋𝗂𝖾𝗌 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 @cine_paradise 𝖮𝗋 𝖴𝗌𝖾 𝖻𝗈𝗍 𝗂𝗇𝗅𝗂𝗇𝖾 𝖻𝗎𝗍𝗍𝗈𝗇...")
+    await message.reply_text("𝖯𝖬 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝗂𝗌 𝗇𝗈𝗍 𝖺𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾... 𝖨𝖿 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍 𝗆𝗈𝗏𝗂𝖾 𝗈𝗋 𝗌𝖾𝗋𝗂𝖾𝗌 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 @cine_paradise0 𝖮𝗋 𝖴𝗌𝖾 𝖻𝗈𝗍 𝗂𝗇𝗅𝗂𝗇𝖾 𝖻𝗎𝗍𝗍𝗈𝗇. 𝖠𝗇𝗒 𝖽𝗈𝗎𝖻𝗍𝗌 𝖺𝗌𝗄 @Dev_Rbot")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
